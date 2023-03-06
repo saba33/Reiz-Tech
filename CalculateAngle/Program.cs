@@ -19,16 +19,13 @@ namespace CalculateAngle
 
                 double minute_angle = minutes * 6;
 
-                // calculate the difference between the two angles
                 double angle_diff = Math.Abs(hour_angle - minute_angle);
 
-                // calculate the lesser angle between the two angles
                 if (angle_diff > 180)
                 {
                     angle_diff = 360 - angle_diff;
                 }
 
-                // output the result to the console
                 Console.WriteLine($"The lesser angle between the hour and minute hands is {angle_diff} degrees.");
             }
         
