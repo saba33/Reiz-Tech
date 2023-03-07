@@ -7,7 +7,7 @@ namespace CalculateAngle
     {
         static void Main(string[] args)
         {
-            // I have Comemnted code and separated different functional Methods with Regions,
+            // I have Commented code and separated different functional Methods with Regions,
             // just open the region And Uncomment part of the code that you wnat to use.
 
             // Calculate angle dagrees
